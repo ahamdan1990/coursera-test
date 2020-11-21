@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html,body {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.header {
+    font-size:3rem;
+    text-align: center;
+}
+
+.heading-2 {
+    float: right;
+}
+
+.sec1 {
+    background-color: yellowgreen;
+}
+
+.sec2 {
+    background-color: goldenrod;
+}
+
+.sec3 {
+    background-color: blanchedalmond;
+}
+
+p {
+    clear: right;
+    text-align: center;
+    padding-top:1rem;
+}
+
+section {
+    float: left;
+    font-size: 1.5rem;
+    height: 15rem;
+    background: orangered;
+    padding:.4rem;
+    border: .1rem solid black;
+    margin-right:1rem;
+    margin-bottom: 1rem;
+    overflow: auto;
+}
+
+/*mobile version max-width = 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+/*Tablet version  between 768px and 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    section {
+        width: 48%;
+    }
+    .section-3 {
+        width: calc(96% + 1rem);
+    }
+}
+
+/*Desktop version min-width = 992px */
+@media only screen and (min-width: 992px) {
+    section {
+        width: 32%;
+    }
+}
+
+
