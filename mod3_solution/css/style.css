@@ -1,0 +1,35 @@
+.navbar-brand h1 {
+    margin: 0;
+}
+
+.navbar-header {
+    padding-bottom: 20px;
+}
+
+#nav-list {
+    text-align: center;
+    background-color: #999;
+}
+
+#nav-list li:hover {
+    background-color: #fff;
+}
+
+#nav-list li:hover a {
+    color: #999;
+}
+
+#nav-list li a{
+    color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.para {
+    background-color: papayawhip;
+    height: 1000px;
+    margin: 15px 0;
+}
+
