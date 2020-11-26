@@ -1,3 +1,10 @@
+* {
+    box-sizing: inherit;
+}
+
+body, html {
+    box-sizing: border-box;
+}
 .navbar-brand h1 {
     margin: 0;
 }
@@ -29,6 +36,5 @@ h2 {
 
 .para {
     background-color: papayawhip;
-    margin: 15px 0;
+    /* margin: 15px 0; */
 }
-
